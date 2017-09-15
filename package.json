@@ -1,10 +1,7 @@
 {
   "name": "generator-pusher-app",
   "version": "0.1.0",
-  "description": "",
-  "scripts": {
-    "create": "mkdir $1 && cd $1 && yo pusher-app"
-  },
+  "description": "Generate pusher apps",
   "files": [
     "generators"
   ],

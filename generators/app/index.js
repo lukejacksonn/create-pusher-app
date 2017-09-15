@@ -10,12 +10,12 @@ module.exports = class extends Generator {
       type    : 'input',
       name    : 'desc',
       message : 'Project description',
-      default : 'My aweesome pusher app'
+      default : 'My awesome pusher feeds app'
     },{
       type    : 'input',
       name    : 'instance',
       message : 'Feeds Instance',
-      default : 'v1:us1-staging:f3b5d285-05cf-4b10-8b95-cc5fbbd9b416'
+      default : 'v1:us1:3d33b2aa-4b66-4896-ae52-420befae4a13'
     },{
       type    : 'input',
       name    : 'feed',
