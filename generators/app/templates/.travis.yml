@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- "7"
+
+script: npm run build
+
+deploy:
+  fqdn: <%= name %>.deployable.site
+  local_dir: static
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master

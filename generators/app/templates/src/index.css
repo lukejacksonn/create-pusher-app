@@ -1,0 +1,65 @@
+html {
+  font-size: calc(8px + 2vmin);
+  font-family: sans-serif;
+  background: white;
+}
+
+body,
+body * {
+  display: block;
+  background: none;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body,
+noscript {
+  height: 100vh;
+  display: flex;
+}
+
+noscript {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+main {
+   margin: auto;
+   padding: 2rem;
+}
+
+h1 {
+   font-size: 1.38rem;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+
+h3 {
+   font-size: .5rem;
+   margin-top: .5rem;
+   color: rgba(0,0,0,.5);
+}
+
+hr {
+   margin: 1rem 0;
+   background: rgba(0,0,0,.25);
+   height: 1px;
+}
+
+ul {
+   width: 16rem;
+   > *+* { margin-top: .5rem; }
+}
+
+li {
+   width: 100%;
+   font-size: .62rem;
+   border: 1px solid rgba(0,0,0,.25);
+   padding: .62rem;
+   line-height: 150%;
+}
